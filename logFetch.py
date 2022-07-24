@@ -67,8 +67,8 @@ def input_to_bool(input):
     return input.lower() == 'y'
 
 def show_graph(list, header):
-    plt.title(header) 
-    plt.xlabel("Time") 
+    plt.title(header)
+    plt.xlabel("Time")
     plt.ylabel("ISK")
     plt.ticklabel_format(style='plain', useLocale=True)
     plt.plot(list)
